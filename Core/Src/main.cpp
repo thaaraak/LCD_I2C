@@ -108,8 +108,8 @@ int main(void)
   while (1)
   {
 	  lcd.setCursor(0,0);
-	  lcd.printf( "Count: %4d", i++ );
-//	  HAL_Delay(100);
+	  lcd.printf( "Cnt: %4d", i++ );
+	  HAL_Delay(100);
 
     /* USER CODE END WHILE */
 
